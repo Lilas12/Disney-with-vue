@@ -38,9 +38,12 @@ export default {
 </template>
 
 <style lang="scss">
+$background-color: #4b2ce6bb;
+$text-color: #000;
+$some-color: #fff;
 body {
   display: flow-root;
-  background-color: #4b2ce6bb;
+  background-color: $background-color;
   justify-content: center;
   padding: 15px 30px;
 }
@@ -79,7 +82,7 @@ main {
 }
 
 a {
-  color: #000;
+  color: $text-color;
 }
 
 nav,
@@ -94,7 +97,7 @@ li {
 
 input {
   font-size: 15px;
-  background-color: #fff7;
+  background-color: $some-color;
   padding: 10px;
 }
 
